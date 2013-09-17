@@ -1,0 +1,10 @@
+curl -X GET http://localhost:5000/users
+
+curl -X GET "http://localhost:5000/users?limit=1&offset=5"
+
+curl -X POST -H "Content-Type: application/json" http://localhost:5000/users -d "{\"username\":\"username99898\",\"email\": \"aabb88787\" }"
+
+curl -X POST -H "Content-Type: application/json" http://localhost:5000/users -d @json_new_user.txt
+
+
+
